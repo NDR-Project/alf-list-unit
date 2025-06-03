@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Register - Aerolines</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="register-box">
+    <h2>Register</h2>
+    <input type="text" id="regUsername" placeholder="Username" required>
+    <input type="password" id="regPassword" placeholder="Password" required>
+    <input type="password" id="regSecret" placeholder="Kode Rahasia" required>
+    <button onclick="register()">Daftar</button>
+    <p class="error" id="error-msg"></p>
+    <p class="success" id="success-msg"></p>
+  </div>
+  <script src="js/register.js"></script>
+</body>
+</html>
